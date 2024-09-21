@@ -7,9 +7,25 @@
   pointer-events: none;
 }
 
+.App-logo_1 {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-logo_2 {
+  height: 60vmin;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .App-logo_1 {
     animation: App-logo-spin infinite 10s linear;
+  }
+  .App-logo_2 {
+    animation: App-logo-spin infinite 40s linear;
   }
 }
 
